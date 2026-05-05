@@ -1,0 +1,327 @@
+﻿question_id,category,question,expected_keywords,flat_answer,graph_answer,flat_context,graph_context,flat_keyword_coverage,graph_keyword_coverage,flat_missing_keywords,graph_missing_keywords,flat_possible_hallucination_rule,graph_possible_hallucination_rule,judge_flat_score,judge_graph_score,judge_winner,judge_flat_possible_hallucination,judge_graph_possible_hallucination,judge_reason,flat_latency_seconds,graph_latency_seconds,flat_retrieval_type,graph_retrieval_type
+Q10,openai_neighborhood,Which AI companies or products are directly or indirectly connected to OpenAI?,"OpenAI, Microsoft, GPT, ChatGPT, Azure","The AI companies or products directly or indirectly connected to OpenAI include:
+
+1. **Microsoft** - Invested in OpenAI and provides Azure infrastructure for OpenAI's AI workloads.
+2. **xAI** - Founded by Elon Musk, who is a co-founder of OpenAI.
+3. **Mistral AI** - Competes with OpenAI in the large language model market.
+
+I do not have enough information in the retrieved context about other potential connections.","Các công ty và sản phẩm AI có liên kết trực tiếp hoặc gián tiếp với OpenAI bao gồm:
+
+1. **Microsoft**: 
+   - Đầu tư vào OpenAI.
+   - Cung cấp hạ tầng Azure cho OpenAI.
+   - Tích hợp công nghệ của OpenAI vào Copilot.
+
+2. **NVIDIA**: 
+   - Cung cấp GPU cho OpenAI.
+   - Cũng cung cấp GPU cho các công ty AI khác như Microsoft, Google, Meta, và Anthropic.
+
+3. **Mistral AI**: 
+   - Cạnh tranh với OpenAI.
+
+4. **xAI**: 
+   - Được sáng lập bởi Elon Musk, người cũng là một trong những người sáng lập OpenAI.
+
+5. **Hugging Face**: 
+   - Hỗ trợ các mô hình từ Mistral AI, một công ty cạnh tranh với OpenAI.
+
+Các mối liên kết này cho thấy OpenAI có sự kết nối mạnh mẽ với các công ty công nghệ lớn và các đối thủ trong lĩnh vực AI.","[Retrieved Document 1]
+Title: OpenAI profile
+Source: TECH_CORPUS
+Doc ID: doc_001_openai
+Distance: 0.4572035074234009
+Content: OpenAI là một công ty AI được thành lập vào năm 2015 bởi Sam Altman, Greg Brockman, Ilya Sutskever, John Schulman và Wojciech Zaremba. OpenAI tạo ra ChatGPT và các mô hình GPT. Microsoft đầu tư vào OpenAI và cung cấp hạ tầng Azure cho nhiều workload AI của OpenAI.
+
+[Retrieved Document 2]
+Title: Tesla and xAI
+Source: TECH_CORPUS
+Doc ID: doc_008_tesla_xai
+Distance: 0.49170446395874023
+Content: Tesla có liên hệ mật thiết với Elon Musk, người giữ vai trò lãnh đạo nổi bật tại Tesla. Elon Musk cũng là một trong những đồng sáng lập ban đầu của OpenAI và sau đó sáng lập xAI. xAI phát triển Grok và tích hợp Grok với nền tảng X.
+
+[Retrieved Document 3]
+Title: Mistral AI
+Source: TECH_CORPUS
+Doc ID: doc_010_mistral
+Distance: 0.5273916721343994
+Content: Mistral AI là công ty AI của Pháp, được đồng sáng lập bởi Arthur Mensch, Timothée Lacroix và Guillaume Lample. Mistral phát triển các mô hình mở như Mistral và Mixtral. Mistral cạnh tranh với OpenAI, Anthropic và Google trong thị trường mô hình ngôn ngữ lớn.
+
+[Retrieved Document 4]
+Title: Anthropic profile
+Source: TECH_CORPUS
+Doc ID: doc_004_anthropic
+Distance: 0.5688140392303467
+Content: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập. Anthropic phát triển Claude. Google đầu tư vào Anthropic, Amazon cũng đầu tư vào Anthropic. Anthropic sử dụng AWS cho một phần hạ tầng cloud và hợp tác với Amazon Bedrock.","- [hop=1] OpenAI --FOUNDED_BY--> Sam Altman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Sam Altman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Greg Brockman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Greg Brockman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Ilya Sutskever | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Ilya Sutskever | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> John Schulman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi John Schulman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Wojciech Zaremba | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Wojciech Zaremba | docs: doc_001_openai
+- [hop=1] OpenAI --CREATED--> ChatGPT | evidence: Curated from doc_001_openai; OpenAI tạo ra ChatGPT | docs: doc_001_openai
+- [hop=1] OpenAI --DEVELOPED--> các mô hình GPT | evidence: OpenAI và các mô hình GPT | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_IN--> 2015 | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] OpenAI --CREATED--> GPT models | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] OpenAI --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Anthropic --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Meta --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Google --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Microsoft --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] OpenAI --FOUNDED_BY--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=2] Elon Musk --CO_FOUNDED_BY--> OpenAI | evidence: Elon Musk cũng là một trong những đồng sáng lập ban đầu của OpenAI. | docs: doc_008_tesla_xai
+- [hop=2] Elon Musk --FOUNDED_BY--> xAI | evidence: sau đó sáng lập xAI. | docs: doc_008_tesla_xai
+- [hop=2] Tesla --FOUNDED_BY--> Elon Musk | evidence: Elon Musk, người giữ vai trò lãnh đạo nổi bật tại Tesla. | docs: doc_008_tesla_xai
+- [hop=2] Tesla --AFFILIATED_WITH--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=2] xAI --FOUNDED_BY--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=1] Microsoft --INVESTED_IN--> OpenAI | evidence: Curated from doc_001_openai; Microsoft đầu tư vào OpenAI | docs: doc_001_openai, doc_002_microsoft
+- [hop=2] Microsoft --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai; Microsoft cung cấp hạ tầng Azure cho nhiều workload AI của OpenAI | docs: doc_001_openai
+- [hop=2] Microsoft --INTEGRATED_WITH--> OpenAI | evidence: tích hợp công nghệ của OpenAI vào Copilot. | docs: doc_002_microsoft
+- [hop=2] Microsoft --FOUNDED_BY--> Bill Gates | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=2] Microsoft --FOUNDED_BY--> Paul Allen | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=2] Microsoft --OWNS--> GitHub | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=2] Microsoft --OWNS--> LinkedIn | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=2] Microsoft --PROVIDES_CLOUD_TO--> Azure | evidence: cung cấp Azure như nền tảng cloud. | docs: doc_002_microsoft
+- [hop=2] Microsoft --INTEGRATED_WITH--> Copilot | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Microsoft | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Microsoft. | docs: doc_006_nvidia
+- [hop=2] Azure --PROVIDED_BY--> Microsoft | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=1] NVIDIA --PROVIDES_CLOUD_TO--> OpenAI | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như OpenAI. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Jensen Huang | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Chris Malachowsky | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Curtis Priem | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DESIGNS--> GPU | evidence: Curated from doc_006_nvidia; NVIDIA thiết kế GPU và nền tảng CUDA. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Anthropic | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Anthropic. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Meta | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Meta. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Google | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Google. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DEVELOPED--> CUDA | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] Mistral AI --COMPETES_WITH--> OpenAI | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với OpenAI | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Arthur Mensch | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Arthur Mensch | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Timothée Lacroix | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Timothée Lacroix | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Guillaume Lample | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Guillaume Lample | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --COMPETES_WITH--> Anthropic | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Anthropic | docs: doc_010_mistral
+- [hop=2] Mistral AI --COMPETES_WITH--> Google | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Google | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral models | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mixtral | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mixtral --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mixtral | docs: doc_010_mistral
+- [hop=2] Hugging Face --SUPPORTS--> Mistral AI | evidence: Hugging Face ... hỗ trợ các mô hình từ Meta, Mistral, Google và nhiều tổ chức khác. | docs: doc_011_huggingface
+- [hop=1] Azure --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai | docs: doc_001_openai",0.6,0.6,"GPT, ChatGPT","GPT, ChatGPT",True,False,3,4,GraphRAG,True,False,"The GraphRAG answer provides more comprehensive connections and relevant details about the relationships between OpenAI and other companies, while the Flat RAG answer lacks depth and includes potential inaccuracies.",2.8402106260000437,8.91405348399985,Flat RAG - ChromaDB,GraphRAG
+Q17,cloud_provider,Which companies in the corpus provide cloud infrastructure relevant to AI?,"Microsoft, Azure, Amazon, AWS, Google","The companies in the corpus that provide cloud infrastructure relevant to AI are IBM, Anthropic, and Oracle.","Các công ty trong corpus cung cấp hạ tầng cloud liên quan đến AI bao gồm:
+
+1. **Microsoft**: Cung cấp hạ tầng Azure cho OpenAI.
+2. **Google**: Sử dụng GPU của NVIDIA cho các ứng dụng AI.
+3. **Amazon**: Cung cấp AWS cho Anthropic.
+
+Tóm lại, Microsoft, Google và Amazon là những công ty cung cấp hạ tầng cloud liên quan đến AI trong ngữ cảnh này.","[Retrieved Document 1]
+Title: IBM AI and Red Hat
+Source: TECH_CORPUS
+Doc ID: doc_017_ibm
+Distance: 0.5476467609405518
+Content: IBM phát triển Watson như một thương hiệu AI doanh nghiệp. IBM mua lại Red Hat để tăng năng lực hybrid cloud. Red Hat OpenShift hỗ trợ triển khai workload cloud-native và AI trong doanh nghiệp.
+
+[Retrieved Document 2]
+Title: Mistral AI
+Source: TECH_CORPUS
+Doc ID: doc_010_mistral
+Distance: 0.5693799257278442
+Content: Mistral AI là công ty AI của Pháp, được đồng sáng lập bởi Arthur Mensch, Timothée Lacroix và Guillaume Lample. Mistral phát triển các mô hình mở như Mistral và Mixtral. Mistral cạnh tranh với OpenAI, Anthropic và Google trong thị trường mô hình ngôn ngữ lớn.
+
+[Retrieved Document 3]
+Title: Anthropic profile
+Source: TECH_CORPUS
+Doc ID: doc_004_anthropic
+Distance: 0.5890305042266846
+Content: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập. Anthropic phát triển Claude. Google đầu tư vào Anthropic, Amazon cũng đầu tư vào Anthropic. Anthropic sử dụng AWS cho một phần hạ tầng cloud và hợp tác với Amazon Bedrock.
+
+[Retrieved Document 4]
+Title: Oracle and cloud
+Source: TECH_CORPUS
+Doc ID: doc_015_oracle
+Distance: 0.5927830934524536
+Content: Oracle được đồng sáng lập bởi Larry Ellison, Bob Miner và Ed Oates. Oracle cung cấp Oracle Cloud Infrastructure, thường gọi là OCI. OCI cung cấp hạ tầng cloud cho workload dữ liệu, enterprise và AI.","- [hop=1] Microsoft --INVESTED_IN--> OpenAI | evidence: Curated from doc_001_openai; Microsoft đầu tư vào OpenAI | docs: doc_001_openai, doc_002_microsoft
+- [hop=2] OpenAI --FOUNDED_BY--> Sam Altman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Sam Altman | docs: doc_001_openai
+- [hop=2] OpenAI --FOUNDED_BY--> Greg Brockman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Greg Brockman | docs: doc_001_openai
+- [hop=2] OpenAI --FOUNDED_BY--> Ilya Sutskever | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Ilya Sutskever | docs: doc_001_openai
+- [hop=2] OpenAI --FOUNDED_BY--> John Schulman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi John Schulman | docs: doc_001_openai
+- [hop=2] OpenAI --FOUNDED_BY--> Wojciech Zaremba | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Wojciech Zaremba | docs: doc_001_openai
+- [hop=2] OpenAI --CREATED--> ChatGPT | evidence: Curated from doc_001_openai; OpenAI tạo ra ChatGPT | docs: doc_001_openai
+- [hop=2] OpenAI --DEVELOPED--> các mô hình GPT | evidence: OpenAI và các mô hình GPT | docs: doc_001_openai
+- [hop=2] OpenAI --FOUNDED_IN--> 2015 | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=2] OpenAI --CREATED--> GPT models | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=2] OpenAI --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] OpenAI --FOUNDED_BY--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=2] Microsoft --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai; Microsoft cung cấp hạ tầng Azure cho nhiều workload AI của OpenAI | docs: doc_001_openai
+- [hop=2] Microsoft --INTEGRATED_WITH--> OpenAI | evidence: tích hợp công nghệ của OpenAI vào Copilot. | docs: doc_002_microsoft
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> OpenAI | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như OpenAI. | docs: doc_006_nvidia
+- [hop=2] Elon Musk --CO_FOUNDED_BY--> OpenAI | evidence: Elon Musk cũng là một trong những đồng sáng lập ban đầu của OpenAI. | docs: doc_008_tesla_xai
+- [hop=2] Mistral AI --COMPETES_WITH--> OpenAI | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với OpenAI | docs: doc_010_mistral
+- [hop=2] Azure --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] Microsoft --FOUNDED_BY--> Bill Gates | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=1] Microsoft --FOUNDED_BY--> Paul Allen | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=1] Microsoft --OWNS--> GitHub | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=1] Microsoft --OWNS--> LinkedIn | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=1] Microsoft --PROVIDES_CLOUD_TO--> Azure | evidence: cung cấp Azure như nền tảng cloud. | docs: doc_002_microsoft
+- [hop=2] Azure --PROVIDED_BY--> Microsoft | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=1] Microsoft --INTEGRATED_WITH--> Copilot | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=2] Copilot --USES--> OpenAI technology | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=1] Microsoft --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Anthropic --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Meta --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Google --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] NVIDIA --PROVIDES_CLOUD_TO--> Microsoft | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Microsoft. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Jensen Huang | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Chris Malachowsky | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Curtis Priem | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DESIGNS--> GPU | evidence: Curated from doc_006_nvidia; NVIDIA thiết kế GPU và nền tảng CUDA. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Anthropic | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Anthropic. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Meta | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Meta. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Google | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Google. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DEVELOPED--> CUDA | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] Google --FOUNDED_BY--> Larry Page | evidence: Curated from doc_003_google_deepmind; Google được thành lập bởi Larry Page và Sergey Brin. | docs: doc_003_google_deepmind
+- [hop=1] Google --FOUNDED_BY--> Sergey Brin | evidence: Curated from doc_003_google_deepmind; Google được thành lập bởi Larry Page và Sergey Brin. | docs: doc_003_google_deepmind
+- [hop=1] Google --OWNS--> DeepMind | evidence: Google mua lại DeepMind vào năm 2014. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Demis Hassabis | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Demis Hassabis | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Shane Legg | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Shane Legg | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Mustafa Suleyman | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Mustafa Suleyman | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CREATED--> AlphaGo | evidence: Curated from doc_003_google_deepmind; DeepMind tạo ra AlphaGo. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --DEVELOPED--> nhiều hệ thống AI | evidence: DeepMind phát triển nhiều hệ thống AI nghiên cứu. | docs: doc_003_google_deepmind
+- [hop=2] Google --ACQUIRED--> DeepMind | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=1] Google --INVESTED_IN--> Anthropic | evidence: Curated from doc_004_anthropic; Google đầu tư vào Anthropic. | docs: doc_004_anthropic
+- [hop=2] Anthropic --FOUNDED_BY--> Dario Amodei | evidence: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --FOUNDED_BY--> Daniela Amodei | evidence: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --DEVELOPED--> Claude | evidence: Anthropic phát triển Claude.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --USES--> AWS | evidence: Anthropic sử dụng AWS cho một phần hạ tầng cloud.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --PARTNERED_WITH--> Amazon Bedrock | evidence: Curated from doc_004_anthropic; hợp tác với Amazon Bedrock. | docs: doc_004_anthropic
+- [hop=2] Amazon --INVESTED_IN--> Anthropic | evidence: Amazon cũng đầu tư vào Anthropic.; Amazon đầu tư vào Anthropic. | docs: doc_004_anthropic, doc_007_amazon_aws
+- [hop=2] Mistral AI --COMPETES_WITH--> Anthropic | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Anthropic | docs: doc_010_mistral
+- [hop=1] Google --AFFILIATED_WITH--> Alphabet | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=1] Google --ACQUIRED_IN--> 2014 | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=1] Mistral AI --COMPETES_WITH--> Google | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Google | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Arthur Mensch | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Arthur Mensch | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Timothée Lacroix | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Timothée Lacroix | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Guillaume Lample | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Guillaume Lample | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral models | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mixtral | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mixtral --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mixtral | docs: doc_010_mistral
+- [hop=2] Hugging Face --SUPPORTS--> Mistral AI | evidence: Hugging Face ... hỗ trợ các mô hình từ Meta, Mistral, Google và nhiều tổ chức khác. | docs: doc_011_huggingface",0.0,1.0,"Microsoft, Azure, Amazon, AWS, Google",,True,False,1,4,GraphRAG,True,False,"The Flat RAG answer includes companies not relevant to the expected keywords, while the GraphRAG answer correctly identifies relevant companies.",0.8761768669992307,3.2703284449999046,Flat RAG - ChromaDB,GraphRAG
+Q18,product_mapping,"Which products are associated with OpenAI, Google, Anthropic, and Meta?","ChatGPT, GPT, Gemini, Claude, Llama","The products associated with the companies are as follows:
+
+- **OpenAI**: ChatGPT and GPT models.
+- **Anthropic**: Claude.
+- **Google**: No specific product is mentioned in the retrieved context.
+- **Meta**: No specific product is mentioned in the retrieved context.
+
+I do not have enough information in the retrieved context regarding products associated with Google and Meta.","Các sản phẩm liên quan đến các công ty OpenAI, Google, Anthropic và Meta như sau:
+
+1. **OpenAI**:
+   - ChatGPT
+   - Các mô hình GPT
+
+2. **Google**:
+   - AlphaGo (được phát triển bởi DeepMind, công ty thuộc Google)
+
+3. **Anthropic**:
+   - Claude
+
+4. **Meta**:
+   - Không có thông tin cụ thể về sản phẩm trong GRAPH_CONTEXT.
+
+Ngoài ra, cả bốn công ty này đều sử dụng GPU của NVIDIA cho các ứng dụng AI của họ. 
+
+Nếu cần thêm thông tin về sản phẩm của Meta, không đủ thông tin trong graph context.","[Retrieved Document 1]
+Title: Anthropic profile
+Source: TECH_CORPUS
+Doc ID: doc_004_anthropic
+Distance: 0.4588828682899475
+Content: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập. Anthropic phát triển Claude. Google đầu tư vào Anthropic, Amazon cũng đầu tư vào Anthropic. Anthropic sử dụng AWS cho một phần hạ tầng cloud và hợp tác với Amazon Bedrock.
+
+[Retrieved Document 2]
+Title: OpenAI profile
+Source: TECH_CORPUS
+Doc ID: doc_001_openai
+Distance: 0.5122711062431335
+Content: OpenAI là một công ty AI được thành lập vào năm 2015 bởi Sam Altman, Greg Brockman, Ilya Sutskever, John Schulman và Wojciech Zaremba. OpenAI tạo ra ChatGPT và các mô hình GPT. Microsoft đầu tư vào OpenAI và cung cấp hạ tầng Azure cho nhiều workload AI của OpenAI.
+
+[Retrieved Document 3]
+Title: Mistral AI
+Source: TECH_CORPUS
+Doc ID: doc_010_mistral
+Distance: 0.5251055955886841
+Content: Mistral AI là công ty AI của Pháp, được đồng sáng lập bởi Arthur Mensch, Timothée Lacroix và Guillaume Lample. Mistral phát triển các mô hình mở như Mistral và Mixtral. Mistral cạnh tranh với OpenAI, Anthropic và Google trong thị trường mô hình ngôn ngữ lớn.
+
+[Retrieved Document 4]
+Title: Tesla and xAI
+Source: TECH_CORPUS
+Doc ID: doc_008_tesla_xai
+Distance: 0.5718702673912048
+Content: Tesla có liên hệ mật thiết với Elon Musk, người giữ vai trò lãnh đạo nổi bật tại Tesla. Elon Musk cũng là một trong những đồng sáng lập ban đầu của OpenAI và sau đó sáng lập xAI. xAI phát triển Grok và tích hợp Grok với nền tảng X.","- [hop=1] OpenAI --FOUNDED_BY--> Sam Altman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Sam Altman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Greg Brockman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Greg Brockman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Ilya Sutskever | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Ilya Sutskever | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> John Schulman | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi John Schulman | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_BY--> Wojciech Zaremba | evidence: Curated from doc_001_openai; OpenAI được thành lập vào năm 2015 bởi Wojciech Zaremba | docs: doc_001_openai
+- [hop=1] OpenAI --CREATED--> ChatGPT | evidence: Curated from doc_001_openai; OpenAI tạo ra ChatGPT | docs: doc_001_openai
+- [hop=1] OpenAI --DEVELOPED--> các mô hình GPT | evidence: OpenAI và các mô hình GPT | docs: doc_001_openai
+- [hop=1] OpenAI --FOUNDED_IN--> 2015 | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] OpenAI --CREATED--> GPT models | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] OpenAI --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Anthropic --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Meta --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Google --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=2] Microsoft --USES--> NVIDIA GPU | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] OpenAI --FOUNDED_BY--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=2] Elon Musk --CO_FOUNDED_BY--> OpenAI | evidence: Elon Musk cũng là một trong những đồng sáng lập ban đầu của OpenAI. | docs: doc_008_tesla_xai
+- [hop=2] Elon Musk --FOUNDED_BY--> xAI | evidence: sau đó sáng lập xAI. | docs: doc_008_tesla_xai
+- [hop=2] Tesla --FOUNDED_BY--> Elon Musk | evidence: Elon Musk, người giữ vai trò lãnh đạo nổi bật tại Tesla. | docs: doc_008_tesla_xai
+- [hop=2] Tesla --AFFILIATED_WITH--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=2] xAI --FOUNDED_BY--> Elon Musk | evidence: Curated from doc_008_tesla_xai | docs: doc_008_tesla_xai
+- [hop=1] Microsoft --INVESTED_IN--> OpenAI | evidence: Curated from doc_001_openai; Microsoft đầu tư vào OpenAI | docs: doc_001_openai, doc_002_microsoft
+- [hop=2] Microsoft --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai; Microsoft cung cấp hạ tầng Azure cho nhiều workload AI của OpenAI | docs: doc_001_openai
+- [hop=2] Microsoft --INTEGRATED_WITH--> OpenAI | evidence: tích hợp công nghệ của OpenAI vào Copilot. | docs: doc_002_microsoft
+- [hop=2] Microsoft --FOUNDED_BY--> Bill Gates | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=2] Microsoft --FOUNDED_BY--> Paul Allen | evidence: Curated from doc_002_microsoft; Microsoft là công ty công nghệ do Bill Gates và Paul Allen thành lập. | docs: doc_002_microsoft
+- [hop=2] Microsoft --OWNS--> GitHub | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=2] Microsoft --OWNS--> LinkedIn | evidence: Curated from doc_002_microsoft; Microsoft sở hữu GitHub và LinkedIn. | docs: doc_002_microsoft
+- [hop=2] Microsoft --PROVIDES_CLOUD_TO--> Azure | evidence: cung cấp Azure như nền tảng cloud. | docs: doc_002_microsoft
+- [hop=2] Microsoft --INTEGRATED_WITH--> Copilot | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Microsoft | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Microsoft. | docs: doc_006_nvidia
+- [hop=2] Azure --PROVIDED_BY--> Microsoft | evidence: Curated from doc_002_microsoft | docs: doc_002_microsoft
+- [hop=1] NVIDIA --PROVIDES_CLOUD_TO--> OpenAI | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như OpenAI. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Jensen Huang | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Chris Malachowsky | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --FOUNDED_BY--> Curtis Priem | evidence: Curated from doc_006_nvidia; NVIDIA do Jensen Huang, Chris Malachowsky và Curtis Priem đồng sáng lập. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DESIGNS--> GPU | evidence: Curated from doc_006_nvidia; NVIDIA thiết kế GPU và nền tảng CUDA. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Anthropic | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Anthropic. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Meta | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Meta. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --PROVIDES_CLOUD_TO--> Google | evidence: GPU của NVIDIA được sử dụng rộng rãi bởi các công ty AI như Google. | docs: doc_006_nvidia
+- [hop=2] NVIDIA --DEVELOPED--> CUDA | evidence: Curated from doc_006_nvidia | docs: doc_006_nvidia
+- [hop=1] Mistral AI --COMPETES_WITH--> OpenAI | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với OpenAI | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Arthur Mensch | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Arthur Mensch | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Timothée Lacroix | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Timothée Lacroix | docs: doc_010_mistral
+- [hop=2] Mistral AI --FOUNDED_BY--> Guillaume Lample | evidence: Curated from doc_010_mistral; được đồng sáng lập bởi Guillaume Lample | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --COMPETES_WITH--> Anthropic | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Anthropic | docs: doc_010_mistral
+- [hop=2] Mistral AI --COMPETES_WITH--> Google | evidence: Curated from doc_010_mistral; Mistral cạnh tranh với Google | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mistral models | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mistral AI --DEVELOPED--> Mixtral | evidence: Curated from doc_010_mistral | docs: doc_010_mistral
+- [hop=2] Mixtral --DEVELOPED--> Mistral AI | evidence: Mistral phát triển các mô hình mở như Mixtral | docs: doc_010_mistral
+- [hop=2] Hugging Face --SUPPORTS--> Mistral AI | evidence: Hugging Face ... hỗ trợ các mô hình từ Meta, Mistral, Google và nhiều tổ chức khác. | docs: doc_011_huggingface
+- [hop=1] Azure --PROVIDES_CLOUD_TO--> OpenAI | evidence: Curated from doc_001_openai | docs: doc_001_openai
+- [hop=1] Google --FOUNDED_BY--> Larry Page | evidence: Curated from doc_003_google_deepmind; Google được thành lập bởi Larry Page và Sergey Brin. | docs: doc_003_google_deepmind
+- [hop=1] Google --FOUNDED_BY--> Sergey Brin | evidence: Curated from doc_003_google_deepmind; Google được thành lập bởi Larry Page và Sergey Brin. | docs: doc_003_google_deepmind
+- [hop=1] Google --OWNS--> DeepMind | evidence: Google mua lại DeepMind vào năm 2014. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Demis Hassabis | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Demis Hassabis | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Shane Legg | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Shane Legg | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CO_FOUNDED_BY--> Mustafa Suleyman | evidence: DeepMind được đồng sáng lập bởi Demis Hassabis, Shane Legg và Mustafa Suleyman. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --FOUNDED_BY--> Mustafa Suleyman | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --CREATED--> AlphaGo | evidence: Curated from doc_003_google_deepmind; DeepMind tạo ra AlphaGo. | docs: doc_003_google_deepmind
+- [hop=2] DeepMind --DEVELOPED--> nhiều hệ thống AI | evidence: DeepMind phát triển nhiều hệ thống AI nghiên cứu. | docs: doc_003_google_deepmind
+- [hop=2] Google --ACQUIRED--> DeepMind | evidence: Curated from doc_003_google_deepmind | docs: doc_003_google_deepmind
+- [hop=1] Google --INVESTED_IN--> Anthropic | evidence: Curated from doc_004_anthropic; Google đầu tư vào Anthropic. | docs: doc_004_anthropic
+- [hop=2] Anthropic --FOUNDED_BY--> Dario Amodei | evidence: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --FOUNDED_BY--> Daniela Amodei | evidence: Anthropic là công ty AI do Dario Amodei và Daniela Amodei đồng sáng lập.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --DEVELOPED--> Claude | evidence: Anthropic phát triển Claude.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --USES--> AWS | evidence: Anthropic sử dụng AWS cho một phần hạ tầng cloud.; Curated from doc_004_anthropic | docs: doc_004_anthropic
+- [hop=2] Anthropic --PARTNERED_WITH--> Amazon Bedrock | evidence: Curated from doc_004_anthropic; hợp tác với Amazon Bedrock. | docs: doc_004_anthropic",0.6,0.6,"Gemini, Llama","Gemini, Llama",True,False,4,3,Flat RAG,False,True,"The Flat RAG answer accurately lists products associated with OpenAI and Anthropic, while the GraphRAG answer includes an unrelated product (AlphaGo) for Google and lacks specific information for Meta.",2.0518953069995405,3.3193480080008158,Flat RAG - ChromaDB,GraphRAG

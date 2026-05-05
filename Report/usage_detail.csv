@@ -1,0 +1,105 @@
+﻿task,model,input_tokens,output_tokens,total_tokens,latency_sec,estimated_cost_usd,extra
+smoke_test,gpt-4o-mini,23,1,24,1.1843661339999016,4.05e-06,{}
+triple_extraction,gpt-4o-mini,451,727,1178,23.455901263999294,0.00050385,{}
+triple_extraction,gpt-4o-mini,427,537,964,13.398630413000319,0.00038625000000000004,{}
+triple_extraction,gpt-4o-mini,444,669,1113,18.564646282000467,0.000468,{}
+triple_extraction,gpt-4o-mini,440,559,999,19.02108143500027,0.0004014,{}
+triple_extraction,gpt-4o-mini,434,376,810,13.200633432999894,0.00029069999999999996,{}
+triple_extraction,gpt-4o-mini,441,766,1207,16.28411438999956,0.00052575,{}
+triple_extraction,gpt-4o-mini,430,460,890,10.614233522999712,0.0003405,{}
+triple_extraction,gpt-4o-mini,445,415,860,10.194838205999986,0.00031574999999999995,{}
+triple_extraction,gpt-4o-mini,430,503,933,13.091790458000105,0.00036629999999999996,{}
+triple_extraction,gpt-4o-mini,451,646,1097,15.459802027000478,0.00045525,{}
+triple_extraction,gpt-4o-mini,453,570,1023,14.286402839999937,0.00040994999999999996,{}
+triple_extraction,gpt-4o-mini,439,405,844,10.474562256999889,0.00030884999999999994,{}
+triple_extraction,gpt-4o-mini,426,175,601,5.415884375000132,0.00016889999999999999,{}
+triple_extraction,gpt-4o-mini,424,182,606,6.095934382000451,0.0001728,{}
+triple_extraction,gpt-4o-mini,421,420,841,8.54418703600004,0.00031515,{}
+triple_extraction,gpt-4o-mini,422,591,1013,13.910040880999986,0.0004179,{}
+triple_extraction,gpt-4o-mini,419,247,666,7.597237740999844,0.00021105,{}
+triple_extraction,gpt-4o-mini,414,388,802,9.70739742600017,0.00029489999999999996,{}
+query_entity_extraction,gpt-4o-mini,645,22,667,1.1441443240000808,0.00010994999999999999,{}
+graphrag_answering,gpt-4o-mini,2939,141,3080,3.8282462630004375,0.00052545,{}
+flat_rag_embedding,text-embedding-3-small,1445,0,1445,1.1490091650002796,2.89e-05,{'n_texts': 18}
+flat_rag_embedding,text-embedding-3-small,25,0,25,0.36878254899966123,5.000000000000001e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,493,54,547,0.8889574559998437,0.00010634999999999998,{}
+flat_rag_embedding,text-embedding-3-small,15,0,15,0.35431774799963023,3.0000000000000004e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,519,46,565,1.053761516999657,0.00010545000000000002,{}
+query_entity_extraction,gpt-4o-mini,642,31,673,0.6735769209999489,0.0001149,{}
+graphrag_answering,gpt-4o-mini,2513,52,2565,1.4247996349995447,0.00040815,{}
+flat_rag_embedding,text-embedding-3-small,11,0,11,0.46569494499999564,2.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,514,43,557,1.2151500519994443,0.00010290000000000001,{}
+query_entity_extraction,gpt-4o-mini,638,16,654,0.7137545989999126,0.0001053,{}
+graphrag_answering,gpt-4o-mini,2964,144,3108,2.5028847840003436,0.000531,{}
+flat_rag_embedding,text-embedding-3-small,21,0,21,2.028378096000779,4.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,539,41,580,0.863742683000055,0.00010545,{}
+query_entity_extraction,gpt-4o-mini,647,17,664,0.7011083190000136,0.00010725,{}
+graphrag_answering,gpt-4o-mini,3411,45,3456,1.4144833709997329,0.00053865,{}
+flat_rag_embedding,text-embedding-3-small,15,0,15,0.4107374949999212,3.0000000000000004e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,458,32,490,2.201431092999883,8.79e-05,{}
+query_entity_extraction,gpt-4o-mini,642,13,655,0.7141260489997876,0.0001041,{}
+graphrag_answering,gpt-4o-mini,2277,61,2338,1.42180487800033,0.00037814999999999995,{}
+flat_rag_embedding,text-embedding-3-small,14,0,14,0.17235699100001511,2.8e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,471,26,497,1.0006084910000936,8.625e-05,{}
+query_entity_extraction,gpt-4o-mini,641,28,669,0.8771691860001738,0.00011295,{}
+graphrag_answering,gpt-4o-mini,3309,129,3438,2.18640615699951,0.00057375,{}
+flat_rag_embedding,text-embedding-3-small,18,0,18,0.38034030000017083,3.6e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,518,33,551,1.235072565000337,9.750000000000001e-05,{}
+query_entity_extraction,gpt-4o-mini,645,37,682,0.7220696129998032,0.00011894999999999999,{}
+graphrag_answering,gpt-4o-mini,3317,84,3401,2.1158674059997793,0.0005479500000000001,{}
+flat_rag_embedding,text-embedding-3-small,16,0,16,0.4563166439993438,3.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,520,35,555,0.8870914520002771,9.899999999999998e-05,{}
+query_entity_extraction,gpt-4o-mini,643,17,660,0.735520508999798,0.00010665,{}
+graphrag_answering,gpt-4o-mini,2800,123,2923,3.9281073700003617,0.0004938,{}
+flat_rag_embedding,text-embedding-3-small,16,0,16,0.3245285849998254,3.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,488,26,514,0.7019710079994184,8.879999999999999e-05,{}
+query_entity_extraction,gpt-4o-mini,643,27,670,1.4453726460005782,0.00011265,{}
+graphrag_answering,gpt-4o-mini,2430,31,2461,0.9078995019999638,0.0003831,{}
+flat_rag_embedding,text-embedding-3-small,12,0,12,0.13353156599987415,2.4000000000000003e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,463,50,513,1.4459521689996109,9.944999999999999e-05,{}
+query_entity_extraction,gpt-4o-mini,638,31,669,0.8802009000000908,0.0001143,{}
+graphrag_answering,gpt-4o-mini,3314,138,3452,2.7528737770007865,0.0005799,{}
+flat_rag_embedding,text-embedding-3-small,14,0,14,0.18813826299992797,2.8e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,530,93,623,2.650194592999469,0.00013529999999999998,{}
+query_entity_extraction,gpt-4o-mini,641,294,935,4.843565281000338,0.00027255,{}
+graphrag_answering,gpt-4o-mini,2480,222,2702,4.068528642000274,0.0005051999999999999,{}
+flat_rag_embedding,text-embedding-3-small,14,0,14,0.1334157139999661,2.8e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,484,62,546,1.4012860170005297,0.00010980000000000001,{}
+query_entity_extraction,gpt-4o-mini,641,16,657,0.7066970089999813,0.00010575,{}
+graphrag_answering,gpt-4o-mini,2609,184,2793,3.2708469579993107,0.00050175,{}
+flat_rag_embedding,text-embedding-3-small,24,0,24,0.1513344449995202,4.800000000000001e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,539,36,575,0.9977475460000278,0.00010245,{}
+query_entity_extraction,gpt-4o-mini,650,31,681,1.2557873369996742,0.0001161,{}
+graphrag_answering,gpt-4o-mini,3333,179,3512,3.6150021799994647,0.00060735,{}
+flat_rag_embedding,text-embedding-3-small,17,0,17,0.13265508600034082,3.4000000000000003e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,531,42,573,0.9971714180001072,0.00010485,{}
+query_entity_extraction,gpt-4o-mini,644,13,657,0.5014576240000679,0.0001044,{}
+graphrag_answering,gpt-4o-mini,3314,121,3435,2.6798558110003796,0.0005697,{}
+flat_rag_embedding,text-embedding-3-small,11,0,11,0.19769078900026216,2.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,453,39,492,1.3960646460000135,9.135e-05,{}
+query_entity_extraction,gpt-4o-mini,638,36,674,2.1881131689997346,0.00011729999999999999,{}
+graphrag_answering,gpt-4o-mini,3306,64,3370,1.3739820509999845,0.0005342999999999999,{}
+flat_rag_embedding,text-embedding-3-small,15,0,15,0.13437280600010126,3.0000000000000004e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,515,32,547,0.7446441780002715,9.645000000000001e-05,{}
+query_entity_extraction,gpt-4o-mini,642,21,663,0.8599322820000452,0.00010889999999999999,{}
+graphrag_answering,gpt-4o-mini,2836,151,2987,4.654088487000081,0.000516,{}
+flat_rag_embedding,text-embedding-3-small,9,0,9,0.17687785399994027,1.8e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,480,19,499,0.9698124310007188,8.340000000000001e-05,{}
+query_entity_extraction,gpt-4o-mini,636,12,648,1.1622439239999949,0.00010259999999999999,{}
+graphrag_answering,gpt-4o-mini,932,149,1081,4.313884786999552,0.0002292,{}
+flat_rag_embedding,text-embedding-3-small,12,0,12,0.14944389399988722,2.4000000000000003e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,475,21,496,0.7248130520001723,8.384999999999999e-05,{}
+query_entity_extraction,gpt-4o-mini,639,39,678,0.9771830560002854,0.00011925,{}
+graphrag_answering,gpt-4o-mini,3315,96,3411,2.2910602389993073,0.00055485,{}
+flat_rag_embedding,text-embedding-3-small,16,0,16,0.20172932200057403,3.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,532,78,610,1.8473826050003481,0.0001266,{}
+query_entity_extraction,gpt-4o-mini,643,20,663,0.6522639409995463,0.00010845000000000001,{}
+graphrag_answering,gpt-4o-mini,3325,140,3465,2.664971086999685,0.0005827499999999999,{}
+flat_rag_embedding,text-embedding-3-small,16,0,16,0.19308176300000923,3.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,528,18,546,0.6218329410003207,9e-05,{}
+query_entity_extraction,gpt-4o-mini,643,13,656,0.47402662500007864,0.00010425,{}
+graphrag_answering,gpt-4o-mini,2915,33,2948,1.097397767000075,0.00045704999999999997,{}
+flat_rag_embedding,text-embedding-3-small,21,0,21,0.4098740869994799,4.2e-07,{'n_texts': 1}
+flat_rag_answering,gpt-4o-mini,513,111,624,1.8964493729999958,0.00014355,{}
+query_entity_extraction,gpt-4o-mini,648,56,704,1.5577832709996073,0.0001308,{}
+graphrag_answering,gpt-4o-mini,3317,300,3617,3.7069785080002475,0.0006775500000000001,{}

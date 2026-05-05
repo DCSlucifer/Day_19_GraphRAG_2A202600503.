@@ -1,0 +1,7 @@
+﻿task,model,calls,input_tokens,output_tokens,total_tokens,latency_sec,estimated_cost_usd
+flat_rag_answering,gpt-4o-mini,21,10563,937,11500,25.741137286000594,0.00214665
+flat_rag_embedding,text-embedding-3-small,22,1777,0,1777,8.312608106999505,3.554e-05
+graphrag_answering,gpt-4o-mini,21,60956,2587,63543,56.21996965999915,0.0106956
+query_entity_extraction,gpt-4o-mini,21,13489,790,14279,23.78609658499954,0.0024973499999999997
+smoke_test,gpt-4o-mini,1,23,1,24,1.1843661339999016,4.05e-06
+triple_extraction,gpt-4o-mini,18,7811,8636,16447,229.31731836900053,0.0063532499999999995

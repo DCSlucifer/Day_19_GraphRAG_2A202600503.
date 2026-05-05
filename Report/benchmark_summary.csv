@@ -1,0 +1,2 @@
+﻿total_questions,avg_flat_keyword_coverage,avg_graph_keyword_coverage,flat_possible_hallucination_count_rule,graph_possible_hallucination_count_rule,avg_flat_latency_seconds,avg_graph_latency_seconds,total_benchmark_time_seconds
+20,0.7636309523809524,0.7728571428571429,7,5,1.5845650617499814,3.753808204350025,146.39825114399991
